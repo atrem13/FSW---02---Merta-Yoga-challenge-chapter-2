@@ -1,0 +1,9 @@
+
+.bg-hero-sign-in {
+    background-image: url('../img/sign-in/hero.png');
+    background-size: cover;
+    background-position: center;
+}
+.thumnail-logo-sign-in {
+    height: 60px;
+}

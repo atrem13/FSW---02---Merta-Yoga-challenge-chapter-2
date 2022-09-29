@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container-fluid bg-my-secondary mb-5" id="page-home">
+        <div class="row justify-content-center">
+            <div class="col-md-10 px-0 mt-3">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="./img/home/thumnail-logo.png" alt="" srcset="">
+                      </a>
+                      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </span>
+                      </button> -->
+                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasRight">
+                        <span class="navbar-toggler-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </span>
+                      </button>
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header pb-0">
+                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BCR</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark" aria-current="page" href="#page-home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#page-service">Our Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#page-why-us">Why Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#page-testimonial">Testimonial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#page-faq">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn bg-my-primary2 px-3 text-white fw-semibold" href="#">Register</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="#page-home">Home</a>
+                          <a class="nav-link" href="#page-service">Our Service</a>
+                          <a class="nav-link" href="#page-why-us">Why Us</a>
+                          <a class="nav-link" href="#page-testimonial">Testimonial</a>
+                          <a class="nav-link" href="#page-faq">FAQ</a>
+                          <a class="nav-link btn bg-my-primary2 px-3 text-white fw-semibold ms-3" href="#">Register</a>
+                        </div>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row mt-5 align-items-start">
+            <div class="col-md-5 offset-md-1 px-3 px-md-0">
+                <p class="fs-2 fw-bold mb-3 mt-10 ">
+                    Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)
+                </p>
+                <p class="text-muted mb-4 ">
+                    Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
+                </p>
+                <a href="" class="btn bg-my-primary2 text-white " style="margin-bottom:10%;">Mulai Sewa Mobil</a>
+            </div>
+            <div class="col-md-6 ps-5 pe-0">
+                <img src="./img/home/hero.png" alt="" class="img-fluid w-100">
+            </div>
+        </div>
+    </div>
+    <div class="container mt-8" id="page-service">
+        <div class="row px-3 px-md-0">
+            <div class="col-md-6 pe-md-5">
+                <img src="./img/home/pros.png" alt="" srcset="" class="img-fluid w-100">
+            </div>
+            <div class="col-md-6 ps-md-4">
+                <p class="fs-3 fw-bold">Best Car Rental for any kind of trip in (Lokasimu)!</p>
+                <p class="text-muted">Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
+                <ul class="list-group border-0">
+                    <li class="list-group-item border-0 px-0">
+                        <img src="./img/home/list_icon.png" alt="" srcset="" class="me-2">
+                        Sewa Mobil Dengan Supir di Bali 12 Jam
+                    </li>
+                    <li class="list-group-item border-0 px-0">
+                        <img src="./img/home/list_icon.png" alt="" srcset="" class="me-2">
+                        Sewa Mobil Lepas Kunci di Bali 24 Jam
+                    </li>
+                    <li class="list-group-item border-0 px-0">
+                        <img src="./img/home/list_icon.png" alt="" srcset="" class="me-2">
+                        Sewa Mobil Jangka Panjang Bulanan
+                    </li>
+                    <li class="list-group-item border-0 px-0">
+                        <img src="./img/home/list_icon.png" alt="" srcset="" class="me-2">
+                        Gratis Antar - Jemput Mobil di Bandara
+                    </li>
+                    <li class="list-group-item border-0 px-0">
+                        <img src="./img/home/list_icon.png" alt="" srcset="" class="me-2">
+                        Layanan Airport Transfer / Drop In Out
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-8" id="page-why-us">
+        <div class="row justify-content-center">
+            <div class="col-md-10 px-0 mt-3">
+                <p class="fs-3 fw-bold text-md-start text-center">Why Us?</p>
+                <p class="text-muted text-md-start text-center">Mengapa harus pilih Binar Car Rental?</p>
+                <div class="row gy-3 px-3 px-md-0">
+                    <div class="col-md-3">
+                        <div class="card p-3">
+                            <div class="card-body">
+                                <img src="./img/home/why-us/thumb.png" alt="" class="img-responsive card-icon-why-us mb-3">
+                                <p class="fs-6 fw-bold">
+                                    Mobil Lengkap
+                                </p>
+                                <p class="fs-6 text-muted mb-0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3">
+                            <div class="card-body">
+                                <img src="./img/home/why-us/price.png" alt="" class="img-responsive card-icon-why-us mb-3">
+                                <p class="fs-6 fw-bold">
+                                    Harga Murah
+                                </p>
+                                <p class="fs-6 text-muted mb-0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3">
+                            <div class="card-body">
+                                <img src="./img/home/why-us/clock.png" alt="" class="img-responsive card-icon-why-us mb-3">
+                                <p class="fs-6 fw-bold">
+                                    Layanan 24 Jam
+                                </p>
+                                <p class="fs-6 text-muted mb-0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3">
+                            <div class="card-body">
+                                <img src="./img/home/why-us/award.png" alt="" class="img-responsive card-icon-why-us mb-3">
+                                <p class="fs-6 fw-bold">
+                                    Sopir Profesional
+                                </p>
+                                <p class="fs-6 text-muted mb-0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-8" id="page-testimonial">
+        <p class="fs-3 fw-bold text-center">
+            Testimonial
+        </p>
+        <p class="text-muted text-center">
+            Berbagai review positif dari para pelanggan kami
+        </p>
+        
+        <div class="row justify-content-center px-3 px-md-0">
+            <div class="col-md-10 px-0 mt-3">
+                <div class="owl-carousel owl-theme">
+                    <div class="item ">
+                        <div class="card p-3 bg-testimonial border-0">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <img src="./img/home/testimonial/img_photo.png" alt="" srcset="" class="rounded-circle img-testimonial  mx-auto mx-md-0">
+                                    </div>
+                                    <div class="col-md-8 offset-md-1 text-center text-md-start">    
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <p class="text-muted">
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, rem ipsum dolor sit elitd”
+                                        </p>
+                                        <p class="fw-semibold mb-0">
+                                            John Dee 32, Bromo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="card p-3 bg-testimonial border-0">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <img src="./img/home/testimonial/img_photo-1.png" alt="" srcset="" class="rounded-circle img-testimonial  mx-auto mx-md-0">
+                                    </div>
+                                    <div class="col-md-8 offset-md-1 text-center text-md-start">
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <p class="text-muted">
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, rem ipsum dolor sit elitd”
+                                        </p>
+                                        <p class="fw-semibold mb-0">
+                                            John Dee 32, Bromo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="card p-3 bg-testimonial border-0">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <img src="./img/home/testimonial/img_photo.png" alt="" srcset="" class="rounded-circle img-testimonial  mx-auto mx-md-0">
+                                    </div>
+                                    <div class="col-md-8 offset-md-1 text-center text-md-start">
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <p class="text-muted">
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, rem ipsum dolor sit elitd”
+                                        </p>
+                                        <p class="fw-semibold mb-0">
+                                            John Dee 32, Bromo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="card p-3 bg-testimonial border-0">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <img src="./img/home/testimonial/img_photo-1.png" alt="" srcset="" class="rounded-circle img-testimonial  mx-auto mx-md-0">
+                                    </div>
+                                    <div class="col-md-8 offset-md-1 text-center text-md-start">
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <p class="text-muted">
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, rem ipsum dolor sit elitd”
+                                        </p>
+                                        <p class="fw-semibold mb-0">
+                                            John Dee 32, Bromo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+    </div>
+    <div class="container-fluid mt-8">
+        <div class="row justify-content-center  px-3 px-md-0">
+            <div class="col-md-10 px-0 mt-3">
+                <div class="card p-5 bg-my-primary">
+                    <div class="card-body text-center">
+                        <p class="fs-2 fw-bold text-white">
+                            Sewa Mobil di (Lokasimu) Sekarang
+                        </p>
+                        <p class="text-white mb-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                        <a href="" class="btn bg-my-primary2 text-white">Mulai Sewa Mobil</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-8" id="page-faq">
+        <div class="row justify-content-center  px-3 px-md-0">
+            <div class="col-md-10 px-0 mt-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="fs-2 fw-bold">
+                            Frequently Asked Question
+                        </p>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mb-3">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Apa saja syarat yang dibutuhkan?    
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Berapa hari minimal sewa mobil lepas kunci?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                              <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Apakah Ada biaya antar-jemput?
+                                </button>
+                              </h2>
+                              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                              <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Bagaimana jika terjadi kecelakaan
+                                </button>
+                              </h2>
+                              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid mt-8 mb-5">
+        <div class="row px-3 px-md-0">
+            <div class="col-md-10 offset-md-1">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class="text-muted">
+                            Jalan Suroyo No. 161 Mayangan Kota
+                            <span class="d-block"></span>
+                            Probolonggo 672000
+                            <span class="d-block my-3">
+                                binarcarrental@gmail.com
+                            </span>
+                            081-233-334-808
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p class="fs-5">
+                                    Our services
+                                </p>
+                                <p class="text-muted">
+                                    <a href="#page-why-us" class="text-decoration-none text-muted">
+                                        Why Us
+                                    </a>
+                                </p>
+                                <p class="text-muted">
+                                    <a href="#page-testimonial" class="text-decoration-none text-muted">
+                                        Testimonial
+                                    </a>
+                                </p>
+                                <p class="text-muted">
+                                    <a href="#page-faq" class="text-decoration-none text-muted">
+                                        FQA
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="fs-5">
+                                    Connect with us
+                                </p>
+                                <a href="" class="text-decoration-none">
+                                    <img src="./img/home/sosmed/icon_facebook.png" alt="" class="img-responsive me-1 mb-2">
+                                </a>
+                                <a href="" class="text-decoration-none">
+                                    <img src="./img/home/sosmed/icon_instagram.png" alt="" class="img-responsive me-1 mb-2">
+                                </a>
+                                <a href="" class="text-decoration-none">
+                                    <img src="./img/home/sosmed/icon_twitter.png" alt="" class="img-responsive me-1 mb-2">
+                                </a>
+                                <a href="" class="text-decoration-none">
+                                    <img src="./img/home/sosmed/icon_mail.png" alt="" class="img-responsive me-1 mb-2">
+                                </a>
+                                <a href="" class="text-decoration-none">
+                                    <img src="./img/home/sosmed/icon_twitch.png" alt="" class="img-responsive me-1 mb-2">
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="fs-5">
+                                    Copyright Binar 2022
+                                </p>
+                                <img src="./img/home/thumnail-logo.png" alt="" class="img-responsive me-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        })
+    </script>
+</body>
+</html>
